@@ -9,13 +9,8 @@ add_executable(lab1_matrix_mul
     lab_1.cpp
 )
 
-add_custom_command(TARGET lab1_matrix_mul POST_BUILD
-    COMMAND ${CMAKE_COMMAND} -E copy_if_different
-            ${CMAKE_SOURCE_DIR}/matrixA.txt
-            $<TARGET_FILE_DIR:lab1_matrix_mul>/matrixA.txt
-    COMMAND ${CMAKE_COMMAND} -E copy_if_different
-            ${CMAKE_SOURCE_DIR}/matrixB.txt
-            $<TARGET_FILE_DIR:lab1_matrix_mul>/matrixB.txt
+target_compile_definitions(lab1_matrix_mul PRIVATE
+    PROJECT_DIR="${CMAKE_SOURCE_DIR}"
 )
 
 
