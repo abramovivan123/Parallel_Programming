@@ -55,7 +55,7 @@ def main():
             all_ok = False
             print(f"{n}x{n}: ERROR | {e}")
 
-    print("\nИТОГ:", "ВСЁ КОРРЕКТНО ✅" if all_ok else "ЕСТЬ ОШИБКИ ❌")
+    print("\nИТОГ:", "ВСЁ КОРРЕКТНО" if all_ok else "ЕСТЬ ОШИБКИ")
 
 if __name__ == "__main__":
     main()
