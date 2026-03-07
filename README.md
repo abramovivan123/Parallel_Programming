@@ -105,7 +105,7 @@ for (int i = 0; i < n; i++)
 
 ### График зависимости времени от числа потоков
 
-![Threads graph](report/chart_threads.png)
+![Threads graph](lab_2/report/chart_threads.png)
 
 ---
 
@@ -126,7 +126,7 @@ for (int i = 0; i < n; i++)
 
 ### График зависимости времени от числа ядер
 
-![Cores graph](report/chart_cores.png)
+![Cores graph](lab_2/report/chart_cores.png)
 
 ---
 
@@ -142,7 +142,7 @@ for (int i = 0; i < n; i++)
 
 ### График зависимости времени от размера матрицы
 
-![Matrix size graph](report/chart_sizes.png)
+![Matrix size graph](lab_2/report/chart_sizes.png)
 
 ---
 
