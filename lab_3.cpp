@@ -186,9 +186,6 @@ int main(int argc, char* argv[]) {
         cout << "Matrix size: " << n << "x" << n << endl;
         cout << "MPI processes used: " << activeProcesses << endl;
         cout << "Execution time: " << elapsed.count() << " seconds" << endl;
-
-        // Если нужно сохранить результат в двумерный вид:
-        // auto C = unflattenMatrix(flatC, n);
     }
 
     MPI_Finalize();
